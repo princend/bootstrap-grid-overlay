@@ -15,11 +15,16 @@
 
 ## 載入方式
 
-1. 打開 Chrome，進入 `chrome://extensions/`
-2. 開啟右上角「開發人員模式」
-3. 點「載入未封裝項目」
-4. 選擇這個資料夾：
-   `/Users/wangzihan/Documents/Codex/2026-07-30/new-chat/outputs/bootstrap-grid-overlay-extension`
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/princend/bootstrap-grid-overlay.git
+   ```
+
+2. 打開 Chrome，進入 `chrome://extensions/`
+3. 開啟右上角「開發人員模式」
+4. 點「載入未封裝項目」
+5. 選擇 clone 下來的 `bootstrap-grid-overlay` 資料夾
 
 ## Bootstrap container 對應
 
