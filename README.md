@@ -13,6 +13,10 @@
 - 可顯示 gutter 與頁面中線
 - 快捷鍵 `Alt + Shift + G` 開關 overlay
 
+## 快捷鍵
+
+預設快捷鍵是 `Alt + Shift + G`。如果這組快捷鍵沒有作用，請到 `chrome://extensions/shortcuts` 確認 `Bootstrap Grid Overlay` 的快捷鍵是否被 Chrome 接受，或改成你自己的組合。
+
 ## 載入方式
 
 1. Clone this repository:

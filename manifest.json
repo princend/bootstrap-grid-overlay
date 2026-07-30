@@ -9,6 +9,18 @@
     "default_title": "Bootstrap Grid Overlay",
     "default_popup": "popup.html"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-grid-overlay": {
+      "suggested_key": {
+        "default": "Alt+Shift+G",
+        "mac": "Alt+Shift+G"
+      },
+      "description": "Toggle Bootstrap grid overlay"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
