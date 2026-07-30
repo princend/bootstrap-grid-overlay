@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid Overlay</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="header">
+        <div>
+          <h1>BS Grid</h1>
+          <p>任意網頁顯示欄格</p>
+        </div>
+        <label class="switch" title="開啟或關閉格線">
+          <input id="enabled" type="checkbox">
+          <span></span>
+        </label>
+      </header>
+
+      <section class="field">
+        <label for="containerMode">Container</label>
+        <select id="containerMode">
+          <option value="bootstrap">Bootstrap responsive</option>
+          <option value="fluid">Fluid 100%</option>
+          <option value="custom">Custom max width</option>
+        </select>
+      </section>
+
+      <section class="field custom-width" hidden>
+        <label for="customWidth">Custom width</label>
+        <input id="customWidth" type="number" min="320" max="2560" step="10">
+      </section>
+
+      <section class="two">
+        <label>
+          <span>Columns</span>
+          <input id="columns" type="number" min="1" max="24">
+        </label>
+        <label>
+          <span>Gutter</span>
+          <input id="gutter" type="number" min="0" max="96">
+        </label>
+      </section>
+
+      <section class="field">
+        <label for="opacity">Opacity <output id="opacityValue"></output></label>
+        <input id="opacity" type="range" min="5" max="80" step="1">
+      </section>
+
+      <section class="field">
+        <label for="color">柵格顏色</label>
+        <input id="color" type="color">
+      </section>
+
+      <section class="checks">
+        <label><input id="showGutters" type="checkbox"> 顯示 gutter</label>
+        <label><input id="showCenterLine" type="checkbox"> 顯示中線</label>
+      </section>
+
+      <footer>快捷鍵：Ctrl + Shift + G</footer>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

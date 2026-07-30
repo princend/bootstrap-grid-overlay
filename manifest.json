@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Bootstrap Grid Overlay",
+  "version": "0.1.0",
+  "description": "Show a Bootstrap-style column grid overlay on any page, without requiring Bootstrap DOM classes.",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Bootstrap Grid Overlay",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
