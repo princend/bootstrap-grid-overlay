@@ -210,7 +210,7 @@
   window.addEventListener("resize", scheduleApply, { passive: true });
 
   window.addEventListener("keydown", (event) => {
-    if (!(event.ctrlKey && event.shiftKey && event.key.toLowerCase() === "g")) return;
+    if (!(event.altKey && event.shiftKey && event.key.toLowerCase() === "g")) return;
     settings = { ...settings, enabled: !settings.enabled };
     chrome.storage.local.set({ [STORAGE_KEY]: settings });
   });

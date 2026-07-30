@@ -11,7 +11,7 @@
 - 使用者可自行選擇柵格顏色
 - 可調整欄數、gutter、透明度
 - 可顯示 gutter 與頁面中線
-- 快捷鍵 `Ctrl + Shift + G` 開關 overlay
+- 快捷鍵 `Alt + Shift + G` 開關 overlay
 
 ## 載入方式
 
